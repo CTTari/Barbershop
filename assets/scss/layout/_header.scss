@@ -1,0 +1,22 @@
+.header {
+    background-color: $eerie-black;
+    background-image: url("/assets/img/post-image.jpg");
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    text-align: center;
+    .header__title {
+        font-family: $secondary-font;
+        font-weight: $black-font;
+        font-style: italic;
+        font-size: $x-large-font;
+        padding: 2rem;
+    }
+
+    @media screen and (min-width: 768px) {
+        .header__title {
+        font-size: $xx-large-font;
+        padding: 8rem;
+        }
+    }
+}   

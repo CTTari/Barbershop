@@ -1,0 +1,28 @@
+//main.scss archivo manifiesto
+
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+//vendors
+@import 'vendors/bootstrap_v4.6/bootstrap';
+
+//base
+@import 'base/reset';
+@import 'base/tipografia';
+
+//layout
+@import 'layout/article';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/section';
+@import 'layout/nav';
+
+//components
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'components/pagination';
+
+//pages
+@import 'pages/index';

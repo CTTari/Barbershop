@@ -1,0 +1,13 @@
+.page-link {
+    font-family: $primary-font;
+    font-weight: $regular-font;
+    font-size: $medium-font;
+    color: $raisin-black;
+    text-decoration: none;
+}
+
+.page-item {
+    .active {
+        background-color: $nickel;
+    }
+}

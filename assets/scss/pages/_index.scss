@@ -1,0 +1,43 @@
+.autor {
+    border: solid 1px $light-gray;
+}
+
+.autor__titulo {
+    font-family: $secondary-font;
+    font-weight: $black-font;
+    font-style: italic;
+    font-size: $x-large-font;
+}
+
+.autor__imagen {
+    border-radius: 50%;
+    width: 10rem;
+}
+
+.autor__links {
+    font-family: $primary-font;
+    font-size: $large-font;
+    font-weight: $light-font;
+    color: $spanish-pink;
+    text-decoration: none;
+    margin: 0;
+}
+
+.autor__links:hover {
+    color: $raisin-black;
+    text-decoration: none;
+}
+
+.autor__texto {
+    font-family: $primary-font;
+    font-weight: $light-font;
+    font-size: $medium-font;
+    color: $nickel;
+    line-height: 2.5rem;
+}
+
+.paginacion{
+    padding: 0;
+    background-color: $light-gray;
+}
+
