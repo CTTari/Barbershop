@@ -9967,7 +9967,7 @@ h3 {
   font-weight: 900;
   font-style: italic;
   font-size: 1.875rem;
-  padding: 2rem;
+  padding: 6rem 0;
 }
 @media screen and (min-width: 768px) {
   .header .header__title {
@@ -10006,8 +10006,13 @@ h3 {
   text-decoration: none;
 }
 
-.page-item .active {
+.pagination__anterior {
+  color: #6c6e70;
+}
+
+.pagination__activo {
   background-color: #6c6e70;
+  color: #fff;
 }
 
 .autor {

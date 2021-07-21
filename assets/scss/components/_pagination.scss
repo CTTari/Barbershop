@@ -6,8 +6,11 @@
     text-decoration: none;
 }
 
-.page-item {
-    .active {
+.pagination__anterior {
+    color: $nickel;
+}
+
+.pagination__activo {
         background-color: $nickel;
-    }
+        color: $white;
 }
