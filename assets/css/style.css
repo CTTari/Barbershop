@@ -9956,7 +9956,7 @@ h3 {
 
 .header {
   background-color: #121619;
-  background-image: url("/assets/img/post-image.jpg");
+  background-image: url("../img/post-image.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
